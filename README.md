@@ -114,16 +114,6 @@ All the IR code will be generated into a file called output.ll.
 
 Test the generated code on all the provided test cases using the `tests.sh` script.
 
-## Usage
-
-To compile MiniC code using the MiniC Compiler, execute the following command:
-
-```bash
-./minic_compiler input_file.c -o output_executable
-```
-
-Replace `input_file.mc` with your MiniC code file and `output_executable` with the desired name for the output executable.
-
 ## Limitations
 
 The MiniC Compiler does not support certain language features, including arrays, structs, pointers, and specific low-level operators.
